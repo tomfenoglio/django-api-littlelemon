@@ -31,8 +31,9 @@ Capabilities:
 3. Run "pipenv install" to install dependencies
 4. Run "python manage.py runserver" to run development server
 
-django admin user: admin
-django admin password: admin@123!
+Django Admin:
+- **User:** admin
+- **Password:** admin@123!
 
 You can test the API endpoints with apps like Insomnia or Postman 🙂
 
