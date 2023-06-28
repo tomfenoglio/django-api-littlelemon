@@ -25,6 +25,12 @@ Capabilities:
 20. Customers can place orders
 21. Customers can browse their own orders
 
+### **Installation Instructions**
+1. Clone repository on your local
+2. Run "pipenv shell" to activate virtual environment
+3. Run "pipenv install" to install dependencies
+4. Run "python manage.py runserver" to run development server
+
 
 ### **API Endpoints**
 
