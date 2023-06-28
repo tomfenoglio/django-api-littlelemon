@@ -1,5 +1,5 @@
-# Django-LittleLemon-API-Advanced
-Fully functioning API project for the Little Lemon restaurant so that the client application developers can use the APIs to develop web and mobile applications. People with different roles will be able to browse, add and edit menu items, place orders, browse orders, assign delivery crew to orders and finally deliver the orders.
+# Django API backend for LittleLemon restaurant
+This is the final project of the APIs course of the [Meta Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer). Its a fully functioning API project for the Little Lemon restaurant so that the client application developers can use the APIs to develop web and mobile applications. People with different roles will be able to browse, add and edit menu items, place orders, browse orders, assign delivery crew to orders and finally deliver the orders.
 
 Capabilities:
 
@@ -26,49 +26,48 @@ Capabilities:
 21. Customers can browse their own orders
 
 
-API Endpoints:
+### **API Endpoints**
 
----User Registration and Token Generation Endpoints:
+**User Registration and Token Generation Endpoints:**
+  - /api/users
+  - /api/users/users/me/
+  - /token/login/
 
-•	/api/users
-•	/api/users/users/me/
-•	/token/login/
+**Menu Item Endpoints:**
 
----Menu Item Endpoints:
+  - /api/menu-items
+  - /api/menu-items
+  - /api/menu-items/{menuItem}
+  - /api/menu-items/{menuItem}
+  - /api/menu-items
+  - /api/menu-items
+  - /api/menu-items/{menuItem}
+  - /api/menu-items/{menuItem}
+  - /api/menu-items/{menuItem}
 
-•	/api/menu-items
-•	/api/menu-items
-•	/api/menu-items/{menuItem}
-•	/api/menu-items/{menuItem}
-•	/api/menu-items
-•	/api/menu-items
-•	/api/menu-items/{menuItem}
-•	/api/menu-items/{menuItem}
-•	/api/menu-items/{menuItem}
+**User group management endpoints:**
 
----User group management endpoints:
+  - /api/groups/manager/users
+  - /api/groups/manager/users
+  - /api/groups/manager/users/{userId}
+  - /api/groups/delivery-crew/users
+  - /api/groups/delivery-crew/users
+  - /api/groups/delivery-crew/users/{userId}
 
-•	/api/groups/manager/users
-•	/api/groups/manager/users
-•	/api/groups/manager/users/{userId}
-•	/api/groups/delivery-crew/users
-•	/api/groups/delivery-crew/users
-•	/api/groups/delivery-crew/users/{userId}
+**Cart management endpoints:**
 
----Cart management endpoints:
+  - /api/cart/menu-items
+  - /api/cart/menu-items
+  - /api/cart/menu-items
 
-•	/api/cart/menu-items
-•	/api/cart/menu-items
-•	/api/cart/menu-items
+**Order management endpoints:**
 
----Order management endpoints:
-
-•	/api/orders
-•	/api/orders
-•	/api/orders/{orderId}
-•	/api/orders
-•	/api/orders/{orderId}
-•	/api/orders/{orderId}
-•	/api/orders
-•	/api/orders/{orderId}
+  - /api/orders
+  - /api/orders
+  - /api/orders/{orderId}
+  - /api/orders
+  - /api/orders/{orderId}
+  - /api/orders/{orderId}
+  - /api/orders
+  - /api/orders/{orderId}
 
